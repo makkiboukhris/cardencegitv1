@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/makkiboukhris/cardencegitv1.git/static/css/main.3a69fda1.chunk.css",
+    "main.js": "/makkiboukhris/cardencegitv1.git/static/js/main.c9160131.chunk.js",
+    "main.js.map": "/makkiboukhris/cardencegitv1.git/static/js/main.c9160131.chunk.js.map",
+    "runtime-main.js": "/makkiboukhris/cardencegitv1.git/static/js/runtime-main.4c98bc39.js",
+    "runtime-main.js.map": "/makkiboukhris/cardencegitv1.git/static/js/runtime-main.4c98bc39.js.map",
+    "static/css/2.6c0f60ba.chunk.css": "/makkiboukhris/cardencegitv1.git/static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.532395a1.chunk.js": "/makkiboukhris/cardencegitv1.git/static/js/2.532395a1.chunk.js",
+    "static/js/2.532395a1.chunk.js.map": "/makkiboukhris/cardencegitv1.git/static/js/2.532395a1.chunk.js.map",
+    "static/js/3.a223d4e2.chunk.js": "/makkiboukhris/cardencegitv1.git/static/js/3.a223d4e2.chunk.js",
+    "static/js/3.a223d4e2.chunk.js.map": "/makkiboukhris/cardencegitv1.git/static/js/3.a223d4e2.chunk.js.map",
+    "index.html": "/makkiboukhris/cardencegitv1.git/index.html",
+    "static/css/2.6c0f60ba.chunk.css.map": "/makkiboukhris/cardencegitv1.git/static/css/2.6c0f60ba.chunk.css.map",
+    "static/css/main.3a69fda1.chunk.css.map": "/makkiboukhris/cardencegitv1.git/static/css/main.3a69fda1.chunk.css.map",
+    "static/js/2.532395a1.chunk.js.LICENSE.txt": "/makkiboukhris/cardencegitv1.git/static/js/2.532395a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c98bc39.js",
+    "static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.532395a1.chunk.js",
+    "static/css/main.3a69fda1.chunk.css",
+    "static/js/main.c9160131.chunk.js"
+  ]
+}
