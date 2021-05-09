@@ -1,0 +1,344 @@
+.sale {
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+.sale_top {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sale_top_right{
+  margin: 1vmin auto;
+  width: 20vw;
+  min-width: 150px;
+  height: fit-content;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: #edfafb;
+}
+.sale_top_middle{
+  margin: 1vmin auto;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+}
+.sale_top_left{
+  margin: 1vmin auto;
+  width: 20vw;
+  min-width: 200px;
+}
+.sale_top_right h2 {
+  text-align: center;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 3vmin;
+  letter-spacing: 2px;
+  color: #00b7c5;
+}
+.sale_top_left h2 {
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 4vmin;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #00b7c5;
+}
+.dot {
+  height: 2vmin;
+  width: 2vmin;
+  background-color: #00b7c5;
+  border-radius: 50%;
+  display: inline-block;
+}
+.sale_top_left h3 {
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 2vmin;
+  color: black;
+  text-align: center;
+  margin-left: 25px;
+}
+.sale_top_middle button {
+  width: 17vmax;
+  height: 5vh;
+  border-radius: 10px;
+  outline: none;
+  border: solid 2px #00b7c5;
+  background-color: white;
+  font-family: "Sawarabi Gothic", sans-serif;
+  letter-spacing: 1px;
+  font-size: 2vmin;
+  color: black;
+  cursor: pointer;
+}
+.sale_top_middle button:hover {
+  background-color: #edfafb;
+}
+.sale_top_right h4 {
+  margin-top: 5px;
+  color: #00b7c5;
+  text-align: center;
+  font-size: 2vmin;
+  letter-spacing: 1px;
+}
+.sale_main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+  background-color: #edfafb;
+  min-height: 69vh;
+  border-radius: 10px;
+  margin-bottom: 10vh;
+}
+.white_square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 1vmin ;
+  background-color: white;
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 7vmin;
+  min-height: 25px;
+}
+.white_square strong {
+  margin-left: 7%;
+  color: #00b7c5;
+  font-size: 3vmin;
+  letter-spacing: 1px;
+}
+.white_square img {
+  width: 7%;
+}
+.liquidity_Autolock {
+  width: 45%;
+  margin: 3vh auto 0;
+  height: 8%;
+  min-width: 230px;
+}
+.Sale_progress {
+  width: 45%;
+  margin: 3vh auto 0;
+  height: 8%;
+  min-width: 230px;
+}
+.Exchange {
+  width: 45%;
+  margin: 3vh auto 0;
+  height: 15%;
+  min-width: 230px;
+}
+.Amount_raised {
+  width: 45%;
+  margin: 3vh auto 0;
+  height: 5%;
+  min-width: 230px;
+}
+.Swap_ratio {
+  width: 45%;
+  margin: 5vh auto 5vh;
+  height: 10%;
+  min-width: 230px;
+}
+.Vesting_schedule {
+  width: 45%;
+  margin: 0vh auto 5vh;
+  height: 15%;
+  min-width: 230px;
+}
+.progressCercle_container {
+  margin: 0 3vmax 0 3vmax;
+  width: 5vmax;
+  min-width: 50px;
+}
+.liquidity_Autolock_child {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lockupPeriod_info {
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 2.5vmin;
+}
+.progressBar_container {
+  /* margin: 0 auto; */
+  margin: 5vh auto 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.progressBar_container span {
+  margin-right: 1vmin;
+  /* margin-left:-13% ; */
+  color: black;
+  /* position: absolute; */
+  font-size: 2.5vmin;
+}
+
+progress {
+  /* position: relative; */
+  border-radius: 5px;
+  width: 100%;
+  height: 3.5vmin;
+  max-height: 20px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+progress::-webkit-progress-bar {
+  background-color: #e1e1e1;
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  background-color: #00b7c5;
+  border-radius: 0 5px 5px 0;
+}
+progress::-moz-progress-bar {
+  background-color: #e1e1e1;
+  border-radius: 5px;
+}
+.Amount_raised_details {
+  font-size: 3vmin;
+  letter-spacing: 2px;
+  margin: 5vh auto 0;
+  display: flex;
+  justify-content: center;
+}
+.Exchange_info {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 2.5vmin;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 80%;
+}
+.Exchange_info_secondairy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh auto;
+  width: 95%;
+}
+#exchangeArrows{
+width: 10%;
+}
+.exchange_amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #00b7c5;
+  width: 40%;
+  min-width: fit-content;
+  height: 5vmin;
+  min-height:20px ;
+  border-radius: 10px;
+}
+.exchange_currency {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  padding-left: 5%;
+  border-left: #00b7c5 2px solid;
+}
+.exchange_currency img {
+  height: 1.5vmin;
+  margin-right: 7%;
+  margin-left: 0%;
+}
+.exchange_currency h5 {
+  margin-right: 5%;
+  color: #6d6d6d;
+  font-weight: 400;
+  font-size: 1.6vmin;
+}
+.exchange_amount h6 {
+  margin-left: 7%;
+  color: #6d6d6d;
+  font-weight: 400;
+  font-size: 1.8vmin;
+}
+.Purchase_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.Purchase_btn button {
+  background-color: #00b7c5;
+  display: flex;
+  border: none;
+  outline: none;
+  height: 4.5vh;
+  width: 40%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sawarabi Gothic", sans-serif;
+  color: white;
+  font-size: 2vmin;
+  cursor: pointer;
+}
+.Purchase_btn button:hover {
+  background-color: #00b8c5d7;
+}
+.Purchase_btn img {
+  margin-right: 7%;
+  height: 3vmin;
+  margin-left: 5px;
+}
+.Swap_ratio_info {
+  margin-top: 2vh;
+}
+.Swap_ratio_info_child {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 2.5vmin;
+  width: 50%;
+  min-width: 200px;
+  letter-spacing: 1px;
+}
+.Swap_ratio_info_child img{
+  width: 10%;
+}
+.Vesting_schedule_info {
+  margin: 2vh auto;
+}
+.Vesting_schedule_equation {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 2.5vmin;
+  margin: auto 5%;
+}
+.Vesting_schedule_equation img{
+width: 2.5vmin;
+}
+.Vesting_schedule_equation span {
+  color: #6d6d6d;
+  font-weight: 200;
+}
+.bottom_equation {
+  border-top: #00b7c5 2px solid;
+}
+.Pancakeswap {
+  margin: 2vh auto;
+}
+.Pancakeswap span {
+  display: flex;
+  justify-content: center;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 2.5vmin;
+}
+#pancakeswapListing{
+  margin-bottom: 2vmin;
+}
